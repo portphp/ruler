@@ -1,0 +1,49 @@
+{
+    "name": "portphp/ruler",
+    "description": "Integrates the hoa/ruler engine in PortPHP",
+    "license": "MIT",
+    "homepage": "https://github.com/portphp",
+    "authors": [
+        {
+            "name": "David de Boer",
+            "email": "david@ddeboer.nl"
+        },
+        {
+            "name": "Markus Bachmann",
+            "email": "markus.bachmann@bachi.biz"
+        },
+        {
+            "name": "Community contributors",
+            "homepage": "https://github.com/portphp/ruler/graphs/contributors"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/portphp/portphp/issues",
+        "source": "https://github.com/portphp/ruler",
+        "docs": "http://docs.portphp.org"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "hoa/ruler": "2.17.05.16",
+        "portphp/portphp": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Port\\Ruler\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0",
+        "phpspec/phpspec": "^2.1"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Port\\Ruler\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
